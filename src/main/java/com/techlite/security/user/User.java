@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "_user")
 public class User {
-
     @Id
     @GeneratedValue
     private Integer id;
